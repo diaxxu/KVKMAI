@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Air Division - KVK MAI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&family=Barlow:wght@300;400;500;600&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="kvk-style.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">
+        <span class="nav-brand-name">KVK MAI</span>
+        <span class="nav-brand-sub">Moroccan Aerospace Industry</span>
+      </a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html"      class="nav-link">Home</a></li>
+        <li><a href="about.html"      class="nav-link">About</a></li>
+        <li class="nav-has-drop">
+          <button class="nav-drop-toggle">Divisions <span class="chev">&#9660;</span></button>
+          <ul class="nav-drop-menu">
+            <li><a href="air.html"        class="nav-drop-item">Air</a></li>
+            <li><a href="ground.html"     class="nav-drop-item">Ground</a></li>
+            <li><a href="sea.html"        class="nav-drop-item">Sea</a></li>
+            <li><a href="technology.html" class="nav-drop-item">Technology</a></li>
+          </ul>
+        </li>
+        <li><a href="investment.html" class="nav-link">Investment</a></li>
+        <li><a href="contact.html"    class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="nav-burger" id="navBurger"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <div class="page-hero">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a><span class="sep">/</span>
+        <span>Divisions</span><span class="sep">/</span>
+        <span>Air</span>
+      </div>
+      <div class="page-hero-tag">Division 01</div>
+      <h1 class="page-title">Air Division</h1>
+      <p class="page-lead">Fixed-wing, VTOL, and rotary platforms engineered for specific mission profiles. From tactical surveillance to agricultural operations and civil aviation training.</p>
+    </div>
+  </div>
+
+  <section class="section-pad">
+    <div class="container">
+
+      <!-- VL-03 -->
+      <div class="product-card reveal">
+        <div class="product-card-head">
+          <div class="prod-meta">
+            <span class="prod-type-badge">VTOL UAV</span>
+            <div class="prod-desig">VL-03</div>
+            <div class="prod-fullname">Vertical-Launch Tactical Platform</div>
+          </div>
+          <span class="status-badge s-dev">Development</span>
+        </div>
+        <div class="product-card-body">
+          <div>
+            <p class="product-desc">The VL-03 is a medium-class VTOL UAV designed for ISR (intelligence, surveillance, and reconnaissance) and civil area monitoring. Its hybrid wing-body configuration allows vertical departure from unprepared sites, followed by efficient fixed-wing cruise flight for extended range and endurance coverage.</p>
+            <p class="product-desc">The airframe integrates twin electric ducted fans for vertical lift and a pusher propulsion system for cruise. Control surfaces are conventional with fly-by-wire actuation managed by the FC-3 flight controller. Payload bay accepts the EO/IR-9 gimbal system or other sensor packages up to 12 kg.</p>
+            <div class="missions-head">Mission Profiles</div>
+            <ul class="missions-list">
+              <li class="mission-item">Area surveillance and persistent ISR</li>
+              <li class="mission-item">Border and infrastructure monitoring</li>
+              <li class="mission-item">Search and rescue coordination</li>
+              <li class="mission-item">Civil mapping and photogrammetry</li>
+              <li class="mission-item">Disaster assessment and response support</li>
+            </ul>
+          </div>
+          <div class="specs-panel">
+            <div class="specs-panel-title">Technical Specifications</div>
+            <table class="specs-table">
+              <tr><td class="s-label">Wingspan</td><td class="s-value">7.2 m</td></tr>
+              <tr><td class="s-label">Length</td><td class="s-value">5.8 m</td></tr>
+              <tr><td class="s-label">MTOW</td><td class="s-value">48 kg</td></tr>
+              <tr><td class="s-label">Payload</td><td class="s-value">12 kg</td></tr>
+              <tr><td class="s-label">Endurance</td><td class="s-value">6 h</td></tr>
+              <tr><td class="s-label">Range</td><td class="s-value">280 km</td></tr>
+              <tr><td class="s-label">Ceiling</td><td class="s-value">4,200 m</td></tr>
+              <tr><td class="s-label">Cruise Speed</td><td class="s-value">95 km/h</td></tr>
+              <tr><td class="s-label">Propulsion</td><td class="s-value">Hybrid electric / EDF</td></tr>
+              <tr><td class="s-label">Flight Controller</td><td class="s-value">FC-3 (internal)</td></tr>
+              <tr><td class="s-label">Sensor</td><td class="s-value">EO/IR-9 (optional)</td></tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- SR-12 -->
+      <div class="product-card reveal">
+        <div class="product-card-head">
+          <div class="prod-meta">
+            <span class="prod-type-badge">Fixed-Wing UAV</span>
+            <div class="prod-desig">SR-12</div>
+            <div class="prod-fullname">Long-Endurance Surveillance System</div>
+          </div>
+          <span class="status-badge s-dev">Development</span>
+        </div>
+        <div class="product-card-body">
+          <div>
+            <p class="product-desc">The SR-12 is a high-aspect-ratio fixed-wing UAV optimized for persistent wide-area coverage missions. Designed from the outset for minimal crew operation, the system features semi-autonomous mission management with waypoint navigation, loiter patterns, and automatic return-to-home.</p>
+            <p class="product-desc">The modular payload bay supports multiple sensor packages: the EO/IR-9 imaging system, synthetic aperture radar, and multi-spectral cameras. Ground data link is handled by the CM-4A encrypted communications module with a 40 km air-to-ground range.</p>
+            <div class="missions-head">Mission Profiles</div>
+            <ul class="missions-list">
+              <li class="mission-item">Wide-area persistent surveillance</li>
+              <li class="mission-item">Coastal and maritime monitoring</li>
+              <li class="mission-item">Environmental data collection</li>
+              <li class="mission-item">Long-range photogrammetric mapping</li>
+              <li class="mission-item">Communications relay node</li>
+            </ul>
+          </div>
+          <div class="specs-panel">
+            <div class="specs-panel-title">Technical Specifications</div>
+            <table class="specs-table">
+              <tr><td class="s-label">Wingspan</td><td class="s-value">12 m</td></tr>
+              <tr><td class="s-label">Length</td><td class="s-value">7.4 m</td></tr>
+              <tr><td class="s-label">MTOW</td><td class="s-value">120 kg</td></tr>
+              <tr><td class="s-label">Payload</td><td class="s-value">24 kg</td></tr>
+              <tr><td class="s-label">Endurance</td><td class="s-value">18 h</td></tr>
+              <tr><td class="s-label">Range</td><td class="s-value">1,800 km</td></tr>
+              <tr><td class="s-label">Ceiling</td><td class="s-value">6,000 m</td></tr>
+              <tr><td class="s-label">Cruise Speed</td><td class="s-value">130 km/h</td></tr>
+              <tr><td class="s-label">Data Link</td><td class="s-value">CM-4A / 40 km</td></tr>
+              <tr><td class="s-label">Takeoff</td><td class="s-value">Runway / catapult</td></tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- MQ-4A -->
+      <div class="product-card reveal">
+        <div class="product-card-head">
+          <div class="prod-meta">
+            <span class="prod-type-badge">Multi-Rotor UAV</span>
+            <div class="prod-desig">MQ-4A</div>
+            <div class="prod-fullname">Agricultural Survey Platform</div>
+          </div>
+          <span class="status-badge s-proto">Prototype</span>
+        </div>
+        <div class="product-card-body">
+          <div>
+            <p class="product-desc">The MQ-4A is a heavy-lift octocopter designed for precision agriculture, infrastructure inspection, and cadastral mapping. Its modular arm design allows field replacement of damaged arms without tools. A hot-swap battery system enables near-continuous operation when multiple battery sets are available on-site.</p>
+            <p class="product-desc">IP55 rated enclosure protects all electronics in dusty and light-rain conditions. The aircraft supports both manual piloting via RC link and fully autonomous flight via pre-programmed mission plans. Compatible with standard orthomosaic mapping software via onboard geotagged imagery.</p>
+            <div class="missions-head">Mission Profiles</div>
+            <ul class="missions-list">
+              <li class="mission-item">Precision agriculture mapping and NDVI analysis</li>
+              <li class="mission-item">Pesticide and fertilizer precision spraying</li>
+              <li class="mission-item">Infrastructure and power line inspection</li>
+              <li class="mission-item">Cadastral and topographic mapping</li>
+              <li class="mission-item">Construction site progress documentation</li>
+            </ul>
+          </div>
+          <div class="specs-panel">
+            <div class="specs-panel-title">Technical Specifications</div>
+            <table class="specs-table">
+              <tr><td class="s-label">Config</td><td class="s-value">Octocopter (8 rotors)</td></tr>
+              <tr><td class="s-label">Rotor Span</td><td class="s-value">1.8 m</td></tr>
+              <tr><td class="s-label">MTOW</td><td class="s-value">18 kg</td></tr>
+              <tr><td class="s-label">Endurance</td><td class="s-value">45 min</td></tr>
+              <tr><td class="s-label">Payload</td><td class="s-value">6 kg</td></tr>
+              <tr><td class="s-label">Max Speed</td><td class="s-value">65 km/h</td></tr>
+              <tr><td class="s-label">IP Rating</td><td class="s-value">IP55</td></tr>
+              <tr><td class="s-label">Battery Swap</td><td class="s-value">Hot-swap system</td></tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- LTA-1 -->
+      <div class="product-card reveal">
+        <div class="product-card-head">
+          <div class="prod-meta">
+            <span class="prod-type-badge">Light Aircraft</span>
+            <div class="prod-desig">LTA-1</div>
+            <div class="prod-fullname">Light Trainer Aircraft</div>
+          </div>
+          <span class="status-badge s-dev">Development</span>
+        </div>
+        <div class="product-card-body">
+          <div>
+            <p class="product-desc">The LTA-1 is a two-seat piston-engine trainer aircraft designed for ab initio pilot training in domestic flight academies. The airframe uses carbon fiber composite construction for a favorable empty weight fraction, enabling a 750 kg MTOW with full fuel, instructor, and student aboard.</p>
+            <p class="product-desc">The cockpit features a glass avionics suite with dual EFIS displays, a conventional control column with dual throw for instructor override, and a full envelope protection envelope in the primary flight computer. Designed to meet EASA CS-VLA certification framework, enabling international market access.</p>
+            <div class="missions-head">Mission Profiles</div>
+            <ul class="missions-list">
+              <li class="mission-item">Ab initio flight training (PPL / CPL)</li>
+              <li class="mission-item">Instrument rating training (IFR capable)</li>
+              <li class="mission-item">Flight school fleet standardization</li>
+              <li class="mission-item">Domestic aviation academy deployment</li>
+            </ul>
+          </div>
+          <div class="specs-panel">
+            <div class="specs-panel-title">Technical Specifications</div>
+            <table class="specs-table">
+              <tr><td class="s-label">Config</td><td class="s-value">2-seat, low-wing monoplane</td></tr>
+              <tr><td class="s-label">Wingspan</td><td class="s-value">9.8 m</td></tr>
+              <tr><td class="s-label">Length</td><td class="s-value">7.1 m</td></tr>
+              <tr><td class="s-label">MTOW</td><td class="s-value">750 kg</td></tr>
+              <tr><td class="s-label">Vne</td><td class="s-value">185 kt (343 km/h)</td></tr>
+              <tr><td class="s-label">Cruise</td><td class="s-value">130 kt</td></tr>
+              <tr><td class="s-label">Range</td><td class="s-value">900 km</td></tr>
+              <tr><td class="s-label">Structure</td><td class="s-value">Carbon fiber composite</td></tr>
+              <tr><td class="s-label">Certification</td><td class="s-value">EASA CS-VLA (target)</td></tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navigation between divisions -->
+      <div class="reveal" style="margin-top:56px;padding-top:40px;border-top:1px solid var(--slate-200);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px">
+        <div>
+          <div style="font-family:var(--f-mono);font-size:10px;color:var(--slate-400);letter-spacing:.15em;text-transform:uppercase;margin-bottom:8px">Next Division</div>
+          <a href="ground.html" class="btn-blue">Ground Division &#8594;</a>
+        </div>
+        <div>
+          <div style="font-family:var(--f-mono);font-size:10px;color:var(--slate-400);letter-spacing:.15em;text-transform:uppercase;margin-bottom:8px">Core Technology</div>
+          <a href="technology.html" class="btn-outline">View Components</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-main">
+        <div>
+          <div class="footer-brand-name">KVK MAI</div>
+          <div class="footer-brand-sub">Moroccan Aerospace Industry</div>
+          <p class="footer-brand-desc">Advanced autonomous systems for air, ground, and sea. Engineering-first. Built in Morocco.</p>
+        </div>
+        <div>
+          <div class="footer-col-title">Company</div>
+          <a href="index.html"      class="footer-link">Home</a>
+          <a href="about.html"      class="footer-link">About</a>
+          <a href="investment.html" class="footer-link">Investment</a>
+          <a href="contact.html"    class="footer-link">Contact</a>
+        </div>
+        <div>
+          <div class="footer-col-title">Divisions</div>
+          <a href="air.html"        class="footer-link">Air</a>
+          <a href="ground.html"     class="footer-link">Ground</a>
+          <a href="sea.html"        class="footer-link">Sea</a>
+          <a href="technology.html" class="footer-link">Technology</a>
+        </div>
+        <div>
+          <div class="footer-col-title">Contact</div>
+          <a href="mailto:contact@kvkmai.ma" class="footer-link">contact@kvkmai.ma</a>
+          <a href="mailto:press@kvkmai.ma"   class="footer-link">press@kvkmai.ma</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="footer-copy">&copy; 2026 KVK MAI. All rights reserved.</span>
+        <span class="footer-copy">Casablanca, Morocco</span>
+        <div class="m-text">
+  <span class="cubes">
+    <span class="cube red"></span><span class="cube green"></span>
+  </span>
+  Made in the Kingdom of Morocco
+</div>
+      </div>
+    
+  </footer>
+
+  <script>
+    document.getElementById('navBurger').addEventListener('click', () => {
+      document.getElementById('navMenu').classList.toggle('is-open');
+    });
+    const obs = new IntersectionObserver((e) => {
+      e.forEach(en => { if (en.isIntersecting) { en.target.classList.add('is-vis'); obs.unobserve(en.target); } });
+    }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+    document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+  </script>
+</body>
+</html>

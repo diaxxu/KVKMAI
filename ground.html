@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ground Division - KVK MAI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&family=Barlow:wght@300;400;500;600&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="kvk-style.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">
+        <span class="nav-brand-name">KVK MAI</span>
+        <span class="nav-brand-sub">Moroccan Aerospace Industry</span>
+      </a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html"      class="nav-link">Home</a></li>
+        <li><a href="about.html"      class="nav-link">About</a></li>
+        <li class="nav-has-drop">
+          <button class="nav-drop-toggle">Divisions <span class="chev">&#9660;</span></button>
+          <ul class="nav-drop-menu">
+            <li><a href="air.html"        class="nav-drop-item">Air</a></li>
+            <li><a href="ground.html"     class="nav-drop-item">Ground</a></li>
+            <li><a href="sea.html"        class="nav-drop-item">Sea</a></li>
+            <li><a href="technology.html" class="nav-drop-item">Technology</a></li>
+          </ul>
+        </li>
+        <li><a href="investment.html" class="nav-link">Investment</a></li>
+        <li><a href="contact.html"    class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="nav-burger" id="navBurger"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <div class="page-hero">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a><span class="sep">/</span>
+        <span>Divisions</span><span class="sep">/</span>
+        <span>Ground</span>
+      </div>
+      <div class="page-hero-tag">Division 02</div>
+      <h1 class="page-title">Ground Division</h1>
+      <p class="page-lead">Unmanned ground vehicles built for demanding environments. Reconnaissance rovers, ordnance disposal platforms, and industrial manipulator systems designed for reliability and field maintainability.</p>
+    </div>
+  </div>
+
+  <section class="section-pad">
+    <div class="container">
+
+      <!-- GR-06 -->
+      <div class="product-card reveal">
+        <div class="product-card-head">
+          <div class="prod-meta">
+            <span class="prod-type-badge">Autonomous UGV</span>
+            <div class="prod-desig">GR-06</div>
+            <div class="prod-fullname">Reconnaissance Rover</div>
+          </div>
+          <span class="status-badge s-proto">Prototype</span>
+        </div>
+        <div class="product-card-body">
+          <div>
+            <p class="product-desc">The GR-06 is a wheeled unmanned ground vehicle designed for autonomous perimeter patrol and area surveillance. Its four-wheel drive electric drivetrain with independent suspension handles mixed terrain reliably - gravel, compacted earth, and moderate gradients - without requiring track-based complexity.</p>
+            <p class="product-desc">Onboard sensors include the EO/IR-9 imaging system on a 2-axis stabilized mount, a forward-facing LiDAR for obstacle avoidance and SLAM-based navigation, and a dual-band radio for encrypted 4G or direct link communications via CM-4A. The vehicle operates fully autonomously on pre-defined patrol routes with anomaly detection and automatic alert generation.</p>
+            <div class="missions-head">Mission Profiles</div>
+            <ul class="missions-list">
+              <li class="mission-item">Perimeter patrol and intruder detection</li>
+              <li class="mission-item">Critical infrastructure surveillance</li>
+              <li class="mission-item">CBRN area assessment (sensor payload)</li>
+              <li class="mission-item">Logistics support in low-risk environments</li>
+              <li class="mission-item">Escort and convoy protection operations</li>
+            </ul>
+          </div>
+          <div class="specs-panel">
+            <div class="specs-panel-title">Technical Specifications</div>
+            <table class="specs-table">
+              <tr><td class="s-label">Drivetrain</td><td class="s-value">4WD electric, independent suspension</td></tr>
+              <tr><td class="s-label">Platform Mass</td><td class="s-value">280 kg</td></tr>
+              <tr><td class="s-label">Payload</td><td class="s-value">40 kg</td></tr>
+              <tr><td class="s-label">Max Speed</td><td class="s-value">12 km/h</td></tr>
+              <tr><td class="s-label">Battery Life</td><td class="s-value">8 h (patrol mode)</td></tr>
+              <tr><td class="s-label">Navigation</td><td class="s-value">LiDAR SLAM + GNSS</td></tr>
+              <tr><td class="s-label">Comms</td><td class="s-value">CM-4A encrypted / 4G</td></tr>
+              <tr><td class="s-label">Imaging</td><td class="s-value">EO/IR-9 (2-axis gimbal)</td></tr>
+              <tr><td class="s-label">IP Rating</td><td class="s-value">IP54</td></tr>
+              <tr><td class="s-label">Gradient</td><td class="s-value">30% max</td></tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- EOD-3B -->
+      <div class="product-card reveal">
+        <div class="product-card-head">
+          <div class="prod-meta">
+            <span class="prod-type-badge">EOD Platform</span>
+            <div class="prod-desig">EOD-3B</div>
+            <div class="prod-fullname">Explosive Ordnance Disposal Platform</div>
+          </div>
+          <span class="status-badge s-dev">Development</span>
+        </div>
+        <div class="product-card-body">
+          <div>
+            <p class="product-desc">The EOD-3B is a tracked remote-controlled robot designed for hazardous material handling and explosive ordnance disposal operations. Its tracked undercarriage provides stable platform behavior on uneven surfaces and rubble, critical for precise manipulation tasks in contested or unstructured environments.</p>
+            <p class="product-desc">The 6-DOF manipulator arm achieves 15 kg lift capacity at full extension (1.2 m reach) with force-torque sensing at the wrist for feedback-controlled grasping. A redundant dual-channel video feed provides low-latency situational awareness from multiple camera angles including a wrist-mounted camera with LED illumination.</p>
+            <div class="missions-head">Mission Profiles</div>
+            <ul class="missions-list">
+              <li class="mission-item">IED and unexploded ordnance identification and handling</li>
+              <li class="mission-item">Hazardous material containment and removal</li>
+              <li class="mission-item">Post-blast forensic site investigation</li>
+              <li class="mission-item">Confined space inspection</li>
+              <li class="mission-item">Perimeter breach and door opening operations</li>
+            </ul>
+          </div>
+          <div class="specs-panel">
+            <div class="specs-panel-title">Technical Specifications</div>
+            <table class="specs-table">
+              <tr><td class="s-label">Platform</td><td class="s-value">Tracked, rubber track</td></tr>
+              <tr><td class="s-label">Platform Mass</td><td class="s-value">120 kg</td></tr>
+              <tr><td class="s-label">Arm DOF</td><td class="s-value">6</td></tr>
+              <tr><td class="s-label">Arm Reach</td><td class="s-value">1.2 m</td></tr>
+              <tr><td class="s-label">Arm Lift</td><td class="s-value">15 kg (full extension)</td></tr>
+              <tr><td class="s-label">Video Feed</td><td class="s-value">Dual-channel, low-latency</td></tr>
+              <tr><td class="s-label">Control Range</td><td class="s-value">500 m (direct link)</td></tr>
+              <tr><td class="s-label">Battery</td><td class="s-value">4 h continuous operation</td></tr>
+              <tr><td class="s-label">Speed</td><td class="s-value">4 km/h max</td></tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- IM-4 -->
+      <div class="product-card reveal">
+        <div class="product-card-head">
+          <div class="prod-meta">
+            <span class="prod-type-badge">Industrial Robotics</span>
+            <div class="prod-desig">IM-4</div>
+            <div class="prod-fullname">Industrial Articulated Manipulator</div>
+          </div>
+          <span class="status-badge s-dev">Development</span>
+        </div>
+        <div class="product-card-body">
+          <div>
+            <p class="product-desc">The IM-4 is a 4-axis fixed-base industrial robot arm designed for integration into Moroccan manufacturing cells. Unlike large-scale industrial robots designed for high-volume automotive lines, the IM-4 targets small-to-medium production facilities that require flexible automation without six-figure capital expenditure.</p>
+            <p class="product-desc">The system is ROS2 compatible, supports standard ISO 9283 trajectory testing, and interfaces with force-torque sensor data at the wrist for compliant assembly tasks. The configurable end-effector flange accepts standard tooling adapters. A companion programming interface allows non-specialist operators to create and modify pick-and-place programs.</p>
+            <div class="missions-head">Application Profiles</div>
+            <ul class="missions-list">
+              <li class="mission-item">Assembly line pick-and-place operations</li>
+              <li class="mission-item">Quality inspection with camera end-effector</li>
+              <li class="mission-item">Material handling in industrial facilities</li>
+              <li class="mission-item">Welding and joining (with appropriate tooling)</li>
+              <li class="mission-item">Packaging and palletizing</li>
+            </ul>
+          </div>
+          <div class="specs-panel">
+            <div class="specs-panel-title">Technical Specifications</div>
+            <table class="specs-table">
+              <tr><td class="s-label">Axes</td><td class="s-value">4 (rotary)</td></tr>
+              <tr><td class="s-label">Payload</td><td class="s-value">25 kg rated</td></tr>
+              <tr><td class="s-label">Reach</td><td class="s-value">1.4 m</td></tr>
+              <tr><td class="s-label">Repeatability</td><td class="s-value">+/- 0.05 mm</td></tr>
+              <tr><td class="s-label">Control</td><td class="s-value">ROS2 / proprietary</td></tr>
+              <tr><td class="s-label">Wrist Sensor</td><td class="s-value">Force-torque, 6-axis</td></tr>
+              <tr><td class="s-label">Mounting</td><td class="s-value">Floor / ceiling / wall</td></tr>
+              <tr><td class="s-label">Power</td><td class="s-value">380 VAC, 3-phase</td></tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="reveal" style="margin-top:56px;padding-top:40px;border-top:1px solid var(--slate-200);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px">
+        <div>
+          <div style="font-family:var(--f-mono);font-size:10px;color:var(--slate-400);letter-spacing:.15em;text-transform:uppercase;margin-bottom:8px">Previous Division</div>
+          <a href="air.html" class="btn-outline">&#8592; Air Division</a>
+        </div>
+        <div>
+          <div style="font-family:var(--f-mono);font-size:10px;color:var(--slate-400);letter-spacing:.15em;text-transform:uppercase;margin-bottom:8px">Next Division</div>
+          <a href="sea.html" class="btn-blue">Sea Division &#8594;</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-main">
+        <div>
+          <div class="footer-brand-name">KVK MAI</div>
+          <div class="footer-brand-sub">Moroccan Aerospace Industry</div>
+          <p class="footer-brand-desc">Advanced autonomous systems for air, ground, and sea. Engineering-first. Built in Morocco.</p>
+        </div>
+        <div>
+          <div class="footer-col-title">Company</div>
+          <a href="index.html"      class="footer-link">Home</a>
+          <a href="about.html"      class="footer-link">About</a>
+          <a href="investment.html" class="footer-link">Investment</a>
+          <a href="contact.html"    class="footer-link">Contact</a>
+        </div>
+        <div>
+          <div class="footer-col-title">Divisions</div>
+          <a href="air.html"        class="footer-link">Air</a>
+          <a href="ground.html"     class="footer-link">Ground</a>
+          <a href="sea.html"        class="footer-link">Sea</a>
+          <a href="technology.html" class="footer-link">Technology</a>
+        </div>
+        <div>
+          <div class="footer-col-title">Contact</div>
+          <a href="mailto:contact@kvkmai.ma" class="footer-link">contact@kvkmai.ma</a>
+          <a href="mailto:press@kvkmai.ma"   class="footer-link">press@kvkmai.ma</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="footer-copy">&copy; 2026 KVK MAI. All rights reserved.</span>
+        <span class="footer-copy">Casablanca, Morocco</span>
+        <div class="m-text">
+  <span class="cubes">
+    <span class="cube red"></span><span class="cube green"></span>
+  </span>
+  Made in the Kingdom of Morocco
+</div>
+      </div>
+    
+  </footer>
+
+  <script>
+    document.getElementById('navBurger').addEventListener('click', () => {
+      document.getElementById('navMenu').classList.toggle('is-open');
+    });
+    const obs = new IntersectionObserver((e) => {
+      e.forEach(en => { if (en.isIntersecting) { en.target.classList.add('is-vis'); obs.unobserve(en.target); } });
+    }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+    document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+  </script>
+</body>
+</html>

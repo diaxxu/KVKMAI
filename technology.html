@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technology Division - KVK MAI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&family=Barlow:wght@300;400;500;600&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="kvk-style.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">
+        <span class="nav-brand-name">KVK MAI</span>
+        <span class="nav-brand-sub">Moroccan Aerospace Industry</span>
+      </a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html"      class="nav-link">Home</a></li>
+        <li><a href="about.html"      class="nav-link">About</a></li>
+        <li class="nav-has-drop">
+          <button class="nav-drop-toggle">Divisions <span class="chev">&#9660;</span></button>
+          <ul class="nav-drop-menu">
+            <li><a href="air.html"        class="nav-drop-item">Air</a></li>
+            <li><a href="ground.html"     class="nav-drop-item">Ground</a></li>
+            <li><a href="sea.html"        class="nav-drop-item">Sea</a></li>
+            <li><a href="technology.html" class="nav-drop-item">Technology</a></li>
+          </ul>
+        </li>
+        <li><a href="investment.html" class="nav-link">Investment</a></li>
+        <li><a href="contact.html"    class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="nav-burger" id="navBurger"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <div class="page-hero">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a><span class="sep">/</span>
+        <span>Divisions</span><span class="sep">/</span>
+        <span>Technology</span>
+      </div>
+      <div class="page-hero-tag">Division 04</div>
+      <h1 class="page-title">Technology Division</h1>
+      <p class="page-lead">The internal components that power every KVK MAI platform. Flight controllers, guidance modules, imaging systems, and communications hardware - all designed and manufactured in-house.</p>
+    </div>
+  </div>
+
+  <!-- PHILOSOPHY STRIP -->
+  <div style="background:var(--navy-900);padding:44px var(--pad-h)">
+    <div style="max-width:var(--max-w);margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center">
+      <div>
+        <div style="font-family:var(--f-mono);font-size:10px;color:var(--blue-300);letter-spacing:.18em;text-transform:uppercase;margin-bottom:14px">Why We Build Our Own</div>
+        <h2 style="font-family:var(--f-display);font-size:clamp(22px,2.8vw,32px);font-weight:700;color:white;text-transform:uppercase;line-height:1.1;margin-bottom:18px">No Critical External Dependencies</h2>
+        <p style="font-size:15px;font-weight:300;color:rgba(255,255,255,0.55);line-height:1.72">When a flight controller, guidance system, or imaging unit is built by someone else, you are dependent on their supply chain, their support, and their roadmap. Every component we design internally is one fewer dependency between our systems and their mission.</p>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:2px;background:rgba(255,255,255,0.05)">
+        <div style="background:rgba(255,255,255,0.04);padding:24px;border-bottom:2px solid var(--blue-500)">
+          <div style="font-family:var(--f-mono);font-size:10px;color:rgba(255,255,255,0.3);letter-spacing:.15em;text-transform:uppercase;margin-bottom:8px">Operational</div>
+          <div style="font-family:var(--f-display);font-size:28px;font-weight:700;color:white">2</div>
+          <div style="font-size:12.5px;color:rgba(255,255,255,0.35);margin-top:4px">Components in production</div>
+        </div>
+        <div style="background:rgba(255,255,255,0.04);padding:24px;border-bottom:2px solid rgba(20,184,166,0.7)">
+          <div style="font-family:var(--f-mono);font-size:10px;color:rgba(255,255,255,0.3);letter-spacing:.15em;text-transform:uppercase;margin-bottom:8px">Prototype</div>
+          <div style="font-family:var(--f-display);font-size:28px;font-weight:700;color:white">2</div>
+          <div style="font-size:12.5px;color:rgba(255,255,255,0.35);margin-top:4px">Components in prototype phase</div>
+        </div>
+        <div style="background:rgba(255,255,255,0.04);padding:24px">
+          <div style="font-family:var(--f-mono);font-size:10px;color:rgba(255,255,255,0.3);letter-spacing:.15em;text-transform:uppercase;margin-bottom:8px">Coverage</div>
+          <div style="font-family:var(--f-display);font-size:28px;font-weight:700;color:white">3</div>
+          <div style="font-size:12.5px;color:rgba(255,255,255,0.35);margin-top:4px">Domains served by shared components</div>
+        </div>
+        <div style="background:rgba(255,255,255,0.04);padding:24px">
+          <div style="font-family:var(--f-mono);font-size:10px;color:rgba(255,255,255,0.3);letter-spacing:.15em;text-transform:uppercase;margin-bottom:8px">Integration</div>
+          <div style="font-family:var(--f-display);font-size:28px;font-weight:700;color:white">All</div>
+          <div style="font-size:12.5px;color:rgba(255,255,255,0.35);margin-top:4px">KVK MAI platforms use internal components</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="section-pad">
+    <div class="container">
+
+      <!-- EO/IR-9 -->
+      <div class="product-card reveal">
+        <div class="product-card-head">
+          <div class="prod-meta">
+            <span class="prod-type-badge">Imaging System</span>
+            <div class="prod-desig">EO/IR-9</div>
+            <div class="prod-fullname">Dual-Band Electro-Optical / Infrared Imaging System</div>
+          </div>
+          <span class="status-badge s-ops">Operational</span>
+        </div>
+        <div class="product-card-body">
+          <div>
+            <p class="product-desc">The EO/IR-9 is a compact gimbaled dual-band imaging unit combining a short-wave infrared (SWIR) camera with an uncooled long-wave infrared (LWIR) thermal sensor. Designed to weigh below 500 g total system mass, it is the primary sensor payload for KVK MAI's air and ground platforms where size, weight, and power (SWaP) constraints are critical.</p>
+            <p class="product-desc">Two-axis stabilization is handled by a brushless direct-drive gimbal with angular position feedback at 1,000 Hz. Onboard image processing includes non-uniformity correction (NUC) for the thermal channel and real-time enhancement algorithms. Video output is uncompressed over MIPI CSI-2 and optionally encoded H.265 over Ethernet for network-integrated operation.</p>
+            <p class="product-desc">The EO/IR-9 is currently operational and deployed on VL-03 test articles and the GR-06 prototype ground vehicle. It is also available for licensing to third-party integrators subject to export regulations.</p>
+            <div class="missions-head">Platforms Using EO/IR-9</div>
+            <ul class="missions-list">
+              <li class="mission-item">VL-03 VTOL UAV (primary sensor payload)</li>
+              <li class="mission-item">SR-12 fixed-wing UAV (nose turret mount)</li>
+              <li class="mission-item">GR-06 reconnaissance rover (stabilized mast)</li>
+              <li class="mission-item">USV-5 surface vehicle (bridge sensor pod)</li>
+            </ul>
+          </div>
+          <div class="specs-panel">
+            <div class="specs-panel-title">Technical Specifications</div>
+            <table class="specs-table">
+              <tr><td class="s-label">EO Channel</td><td class="s-value">SWIR, 900-1700 nm</td></tr>
+              <tr><td class="s-label">IR Channel</td><td class="s-value">LWIR uncooled, 8-14 um</td></tr>
+              <tr><td class="s-label">EO Resolution</td><td class="s-value">1920 x 1080 @ 60 Hz</td></tr>
+              <tr><td class="s-label">IR Resolution</td><td class="s-value">640 x 512 @ 30 Hz</td></tr>
+              <tr><td class="s-label">Stabilization</td><td class="s-value">2-axis, brushless direct-drive</td></tr>
+              <tr><td class="s-label">Gimbal Rate</td><td class="s-value">1,000 Hz feedback</td></tr>
+              <tr><td class="s-label">NUC</td><td class="s-value">Onboard (shutter + scene-based)</td></tr>
+              <tr><td class="s-label">Video Out</td><td class="s-value">MIPI CSI-2 / H.265 Ethernet</td></tr>
+              <tr><td class="s-label">Mass</td><td class="s-value">420 g (complete gimbal unit)</td></tr>
+              <tr><td class="s-label">Power</td><td class="s-value">8W nominal, 12W peak</td></tr>
+              <tr><td class="s-label">Supply Voltage</td><td class="s-value">12-28 VDC</td></tr>
+              <tr><td class="s-label">Operating Temp</td><td class="s-value">-20 to +60 deg C</td></tr>
+              <tr><td class="s-label">IP Rating</td><td class="s-value">IP53</td></tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- FC-3 -->
+      <div class="product-card reveal">
+        <div class="product-card-head">
+          <div class="prod-meta">
+            <span class="prod-type-badge">Flight Controller</span>
+            <div class="prod-desig">FC-3</div>
+            <div class="prod-fullname">Embedded Multi-Platform Flight Controller</div>
+          </div>
+          <span class="status-badge s-ops">Operational</span>
+        </div>
+        <div class="product-card-body">
+          <div>
+            <p class="product-desc">The FC-3 is the core flight computer for all KVK MAI aerial platforms. Built on a dual-core ARM Cortex-M7 running at 480 MHz with a dedicated floating-point unit, it runs the full flight control stack including attitude estimation, control loop execution, navigation management, and failsafe logic without requiring a companion computer for basic autonomous flight.</p>
+            <p class="product-desc">Triple-redundant IMU configuration uses two MEMS IMUs on isolated mounting with vibration damping, plus one high-precision MEMS IMU on a rigid mount for cross-validation. Sensor fusion runs an extended Kalman filter at 400 Hz. The FC-3 supports fixed-wing, VTOL, multirotor, and hybrid aircraft configurations through software parameter configuration, not hardware revision.</p>
+            <p class="product-desc">All boards are conformal coated for moisture and contamination resistance. MAVLink compatibility allows integration with standard ground control station software (Mission Planner, QGroundControl) while the native KVK telemetry protocol provides higher-bandwidth data access when used with compatible KVK ground stations.</p>
+            <div class="missions-head">Platforms Using FC-3</div>
+            <ul class="missions-list">
+              <li class="mission-item">VL-03 VTOL UAV (VTOL transition management)</li>
+              <li class="mission-item">SR-12 fixed-wing UAV (primary flight computer)</li>
+              <li class="mission-item">MQ-4A multirotor (multirotor mode)</li>
+              <li class="mission-item">LTA-1 light trainer (autopilot / fly-by-wire)</li>
+            </ul>
+          </div>
+          <div class="specs-panel">
+            <div class="specs-panel-title">Technical Specifications</div>
+            <table class="specs-table">
+              <tr><td class="s-label">Processor</td><td class="s-value">Dual-core ARM Cortex-M7, 480 MHz</td></tr>
+              <tr><td class="s-label">IMU Count</td><td class="s-value">3x (triple redundant)</td></tr>
+              <tr><td class="s-label">IMU Types</td><td class="s-value">2x vibration-damped MEMS + 1x rigid MEMS</td></tr>
+              <tr><td class="s-label">Filter Rate</td><td class="s-value">400 Hz EKF</td></tr>
+              <tr><td class="s-label">Attitude Acc</td><td class="s-value">+/- 0.5 deg (static), +/- 1 deg (dynamic)</td></tr>
+              <tr><td class="s-label">GNSS</td><td class="s-value">Dual-antenna, L1/L5 RTK capable</td></tr>
+              <tr><td class="s-label">Barometer</td><td class="s-value">2x redundant, 10 cm resolution</td></tr>
+              <tr><td class="s-label">I/O Channels</td><td class="s-value">16 PWM output, 8 ADC input</td></tr>
+              <tr><td class="s-label">Interfaces</td><td class="s-value">UART x6, SPI x3, I2C x3, CAN x2</td></tr>
+              <tr><td class="s-label">Telemetry</td><td class="s-value">MAVLink + KVK native protocol</td></tr>
+              <tr><td class="s-label">Blackbox</td><td class="s-value">Internal 32 GB flash logging</td></tr>
+              <tr><td class="s-label">Mass</td><td class="s-value">48 g (PCB + enclosure)</td></tr>
+              <tr><td class="s-label">Dimensions</td><td class="s-value">72 x 48 x 18 mm</td></tr>
+              <tr><td class="s-label">Coating</td><td class="s-value">Full conformal coat (acrylic)</td></tr>
+              <tr><td class="s-label">Supply</td><td class="s-value">4.5 - 60 VDC</td></tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- GS-2 -->
+      <div class="product-card reveal">
+        <div class="product-card-head">
+          <div class="prod-meta">
+            <span class="prod-type-badge">Navigation</span>
+            <div class="prod-desig">GS-2</div>
+            <div class="prod-fullname">Tightly Coupled INS/GNSS Guidance Module</div>
+          </div>
+          <span class="status-badge s-proto">Prototype</span>
+        </div>
+        <div class="product-card-body">
+          <div>
+            <p class="product-desc">The GS-2 is a navigation module designed for operation in environments where GNSS availability cannot be assumed. Tightly coupled integration of a dual-frequency GNSS receiver with a tactical-grade MEMS IMU allows the system to maintain position, velocity, and attitude solutions through GPS outages, jamming events, and urban canyon flight.</p>
+            <p class="product-desc">Tight coupling means raw pseudorange and Doppler measurements from the GNSS receiver are fed directly into the navigation filter alongside IMU data, rather than feeding position fixes from a separate GNSS solution. This provides significantly faster reacquisition after signal disruption and better performance in degraded signal environments.</p>
+            <p class="product-desc">A sealed aluminum enclosure with hermetic connectors makes the GS-2 suitable for the UUV-2A underwater vehicle as well as aerial platforms. The module outputs position, velocity, attitude, and integrity data over dual redundant CAN bus interfaces compatible with the FC-3 flight controller.</p>
+            <div class="missions-head">Platforms Using GS-2</div>
+            <ul class="missions-list">
+              <li class="mission-item">SR-12 long-endurance UAV (primary navigation)</li>
+              <li class="mission-item">GR-06 rover (GPS-degraded urban operations)</li>
+              <li class="mission-item">UUV-2A underwater vehicle (submerged navigation)</li>
+              <li class="mission-item">USV-5 surface vehicle (high-accuracy survey mode)</li>
+            </ul>
+          </div>
+          <div class="specs-panel">
+            <div class="specs-panel-title">Technical Specifications</div>
+            <table class="specs-table">
+              <tr><td class="s-label">Architecture</td><td class="s-value">Tightly coupled INS/GNSS</td></tr>
+              <tr><td class="s-label">GNSS Bands</td><td class="s-value">L1 + L5 dual-frequency</td></tr>
+              <tr><td class="s-label">GNSS Systems</td><td class="s-value">GPS, GLONASS, Galileo, BeiDou</td></tr>
+              <tr><td class="s-label">IMU Grade</td><td class="s-value">Tactical-grade MEMS</td></tr>
+              <tr><td class="s-label">Position Acc</td><td class="s-value">1.0 m CEP (GNSS), 0.1% dist (GNSS-denied)</td></tr>
+              <tr><td class="s-label">Attitude Acc</td><td class="s-value">+/- 0.1 deg (heading), +/- 0.05 deg (pitch/roll)</td></tr>
+              <tr><td class="s-label">Output Rate</td><td class="s-value">200 Hz position/attitude</td></tr>
+              <tr><td class="s-label">Interface</td><td class="s-value">Dual CAN bus (redundant)</td></tr>
+              <tr><td class="s-label">Barometric Alt</td><td class="s-value">Integrated, 10 cm resolution</td></tr>
+              <tr><td class="s-label">Enclosure</td><td class="s-value">Sealed aluminum, hermetic connectors</td></tr>
+              <tr><td class="s-label">Mass</td><td class="s-value">62 g</td></tr>
+              <tr><td class="s-label">Depth Rating</td><td class="s-value">300 m (UUV-2A application)</td></tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- CM-4A -->
+      <div class="product-card reveal">
+        <div class="product-card-head">
+          <div class="prod-meta">
+            <span class="prod-type-badge">Communications</span>
+            <div class="prod-desig">CM-4A</div>
+            <div class="prod-fullname">Encrypted Software-Defined Radio Communications Module</div>
+          </div>
+          <span class="status-badge s-proto">Prototype</span>
+        </div>
+        <div class="product-card-body">
+          <div>
+            <p class="product-desc">The CM-4A is a software-defined radio module providing encrypted air-to-ground and platform-to-platform data link capability. Based on an FPGA-accelerated SDR core, the module supports frequency-hopping spread spectrum (FHSS) waveforms across dual RF bands, making it resistant to narrowband jamming and difficult to intercept without the session key.</p>
+            <p class="product-desc">Link encryption uses AES-256 in GCM mode with session key renegotiation at configurable intervals. The module implements a MAC layer with automatic retransmission and link quality monitoring, providing reliable delivery of control and telemetry data even in congested RF environments. A companion ground unit is required to complete the encrypted link.</p>
+            <p class="product-desc">The modem supports simultaneous command uplink and HD video downlink over a single frequency-hopped channel using OFDM waveform design. A UART bridge mode allows the CM-4A to act as a transparent serial link for legacy telemetry systems.</p>
+            <div class="missions-head">Platforms Using CM-4A</div>
+            <ul class="missions-list">
+              <li class="mission-item">SR-12 surveillance UAV (primary data link)</li>
+              <li class="mission-item">GR-06 reconnaissance rover (encrypted comms)</li>
+              <li class="mission-item">USV-5 surface vehicle (over-the-horizon supplement)</li>
+              <li class="mission-item">EOD-3B platform (redundant control link)</li>
+            </ul>
+          </div>
+          <div class="specs-panel">
+            <div class="specs-panel-title">Technical Specifications</div>
+            <table class="specs-table">
+              <tr><td class="s-label">Radio Core</td><td class="s-value">FPGA-accelerated SDR</td></tr>
+              <tr><td class="s-label">Waveform</td><td class="s-value">FHSS-OFDM, dual-band</td></tr>
+              <tr><td class="s-label">Frequency</td><td class="s-value">900 MHz + 2.4 GHz (simultaneous)</td></tr>
+              <tr><td class="s-label">Encryption</td><td class="s-value">AES-256-GCM</td></tr>
+              <tr><td class="s-label">Key Refresh</td><td class="s-value">Configurable (1s - 60s intervals)</td></tr>
+              <tr><td class="s-label">Max Range</td><td class="s-value">40 km (line of sight, 30 dBm Tx)</td></tr>
+              <tr><td class="s-label">Data Rate</td><td class="s-value">Up to 12 Mbps (video + telemetry combined)</td></tr>
+              <tr><td class="s-label">Latency</td><td class="s-value">less than 15 ms (command uplink)</td></tr>
+              <tr><td class="s-label">Interfaces</td><td class="s-value">Ethernet, UART (transparent bridge mode)</td></tr>
+              <tr><td class="s-label">Mass</td><td class="s-value">85 g (module only, excl. antenna)</td></tr>
+              <tr><td class="s-label">Power</td><td class="s-value">6W receive, 18W transmit (30 dBm)</td></tr>
+              <tr><td class="s-label">Supply</td><td class="s-value">5 VDC regulated</td></tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- LICENSING NOTE -->
+      <div class="reveal" style="margin-top:48px;background:var(--blue-50);border:1px solid var(--blue-100);padding:36px;display:flex;gap:28px;align-items:flex-start;flex-wrap:wrap">
+        <div style="flex:1;min-width:240px">
+          <div style="font-family:var(--f-mono);font-size:10px;color:var(--blue-500);letter-spacing:.18em;text-transform:uppercase;margin-bottom:10px">Licensing Availability</div>
+          <h3 style="font-family:var(--f-display);font-size:18px;font-weight:700;color:var(--navy-800);text-transform:uppercase;letter-spacing:.04em;margin-bottom:12px">Third-Party Integration</h3>
+          <p style="font-size:14.5px;font-weight:300;color:var(--slate-600);line-height:1.72">Select components - including the EO/IR-9 and CM-4A - are available for licensing to external integrators and OEM manufacturers, subject to applicable export regulations and end-use agreements. Contact our technical team for integration documentation and licensing terms.</p>
+        </div>
+        <div style="flex-shrink:0;padding-top:4px">
+          <a href="contact.html" class="btn-blue">Licensing Inquiry</a>
+        </div>
+      </div>
+
+      <div class="reveal" style="margin-top:48px;padding-top:40px;border-top:1px solid var(--slate-200);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px">
+        <div>
+          <div style="font-family:var(--f-mono);font-size:10px;color:var(--slate-400);letter-spacing:.15em;text-transform:uppercase;margin-bottom:8px">Previous Division</div>
+          <a href="sea.html" class="btn-outline">&#8592; Sea Division</a>
+        </div>
+        <div>
+          <div style="font-family:var(--f-mono);font-size:10px;color:var(--slate-400);letter-spacing:.15em;text-transform:uppercase;margin-bottom:8px">Learn More</div>
+          <a href="investment.html" class="btn-blue">Investment Case &#8594;</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-main">
+        <div>
+          <div class="footer-brand-name">KVK MAI</div>
+          <div class="footer-brand-sub">Moroccan Aerospace Industry</div>
+          <p class="footer-brand-desc">Advanced autonomous systems for air, ground, and sea. Engineering-first. Built in Morocco.</p>
+        </div>
+        <div>
+          <div class="footer-col-title">Company</div>
+          <a href="index.html"      class="footer-link">Home</a>
+          <a href="about.html"      class="footer-link">About</a>
+          <a href="investment.html" class="footer-link">Investment</a>
+          <a href="contact.html"    class="footer-link">Contact</a>
+        </div>
+        <div>
+          <div class="footer-col-title">Divisions</div>
+          <a href="air.html"        class="footer-link">Air</a>
+          <a href="ground.html"     class="footer-link">Ground</a>
+          <a href="sea.html"        class="footer-link">Sea</a>
+          <a href="technology.html" class="footer-link">Technology</a>
+        </div>
+        <div>
+          <div class="footer-col-title">Contact</div>
+          <a href="mailto:contact@kvkmai.ma" class="footer-link">contact@kvkmai.ma</a>
+          <a href="mailto:press@kvkmai.ma"   class="footer-link">press@kvkmai.ma</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="footer-copy">&copy; 2026 KVK MAI. All rights reserved.</span>
+        <span class="footer-copy">Casablanca, Morocco</span>
+      </div>
+    </div>
+    <div class="morocco-bar">
+      <div class="m-block-red"></div>
+      <div class="m-block-green"></div>
+      <div class="m-text">Made in the Kingdom of Morocco</div>
+      <div class="m-block-green"></div>
+      <div class="m-block-red"></div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('navBurger').addEventListener('click', () => {
+      document.getElementById('navMenu').classList.toggle('is-open');
+    });
+    const obs = new IntersectionObserver((e) => {
+      e.forEach(en => { if (en.isIntersecting) { en.target.classList.add('is-vis'); obs.unobserve(en.target); } });
+    }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+    document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+  </script>
+</body>
+</html>

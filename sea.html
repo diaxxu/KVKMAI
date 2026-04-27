@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sea Division - KVK MAI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&family=Barlow:wght@300;400;500;600&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="kvk-style.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">
+        <span class="nav-brand-name">KVK MAI</span>
+        <span class="nav-brand-sub">Moroccan Aerospace Industry</span>
+      </a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html"      class="nav-link">Home</a></li>
+        <li><a href="about.html"      class="nav-link">About</a></li>
+        <li class="nav-has-drop">
+          <button class="nav-drop-toggle">Divisions <span class="chev">&#9660;</span></button>
+          <ul class="nav-drop-menu">
+            <li><a href="air.html"        class="nav-drop-item">Air</a></li>
+            <li><a href="ground.html"     class="nav-drop-item">Ground</a></li>
+            <li><a href="sea.html"        class="nav-drop-item">Sea</a></li>
+            <li><a href="technology.html" class="nav-drop-item">Technology</a></li>
+          </ul>
+        </li>
+        <li><a href="investment.html" class="nav-link">Investment</a></li>
+        <li><a href="contact.html"    class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="nav-burger" id="navBurger"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <div class="page-hero">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a><span class="sep">/</span>
+        <span>Divisions</span><span class="sep">/</span>
+        <span>Sea</span>
+      </div>
+      <div class="page-hero-tag">Division 03</div>
+      <h1 class="page-title">Sea Division</h1>
+      <p class="page-lead">Unmanned surface and underwater vehicles designed for Morocco's Atlantic and Mediterranean operating environments. Built for survey, patrol, and subsurface inspection missions.</p>
+    </div>
+  </div>
+
+  <section class="section-pad">
+    <div class="container">
+
+      <!-- CONTEXT BLOCK -->
+      <div class="reveal" style="background:var(--slate-50);border:1px solid var(--slate-200);padding:36px;margin-bottom:56px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:36px">
+        <div>
+          <div style="font-family:var(--f-mono);font-size:10px;color:var(--blue-500);letter-spacing:.18em;text-transform:uppercase;margin-bottom:8px">Operating Environment</div>
+          <div style="font-family:var(--f-display);font-size:14px;font-weight:600;color:var(--navy-800);letter-spacing:.03em">Atlantic + Mediterranean</div>
+          <div style="font-size:13px;color:var(--slate-500);margin-top:6px">Dual-coast operational design basis. Sea state 4 minimum operability requirement for all surface platforms.</div>
+        </div>
+        <div>
+          <div style="font-family:var(--f-mono);font-size:10px;color:var(--blue-500);letter-spacing:.18em;text-transform:uppercase;margin-bottom:8px">Coastline Coverage</div>
+          <div style="font-family:var(--f-display);font-size:14px;font-weight:600;color:var(--navy-800);letter-spacing:.03em">3,500 km</div>
+          <div style="font-size:13px;color:var(--slate-500);margin-top:6px">Morocco's total coastline length - one of the longest on the African continent. High-value target for autonomous maritime monitoring.</div>
+        </div>
+        <div>
+          <div style="font-family:var(--f-mono);font-size:10px;color:var(--blue-500);letter-spacing:.18em;text-transform:uppercase;margin-bottom:8px">Active Programs</div>
+          <div style="font-family:var(--f-display);font-size:14px;font-weight:600;color:var(--navy-800);letter-spacing:.03em">2 Platforms</div>
+          <div style="font-size:13px;color:var(--slate-500);margin-top:6px">USV-5 surface vehicle and UUV-2A underwater vehicle currently in development. Further platforms planned.</div>
+        </div>
+      </div>
+
+      <!-- USV-5 -->
+      <div class="product-card reveal">
+        <div class="product-card-head">
+          <div class="prod-meta">
+            <span class="prod-type-badge">Unmanned Surface Vehicle</span>
+            <div class="prod-desig">USV-5</div>
+            <div class="prod-fullname">Autonomous Surface Patrol and Survey Vehicle</div>
+          </div>
+          <span class="status-badge s-dev">Development</span>
+        </div>
+        <div class="product-card-body">
+          <div>
+            <p class="product-desc">The USV-5 is a 5.2-meter catamaran-hull unmanned surface vehicle designed for coastal patrol, hydrographic survey, and environmental monitoring. The twin-hull configuration provides superior stability in beam seas compared to monohull designs of equivalent length, enabling reliable sensor operation at sea state 4 without stabilization hardware.</p>
+            <p class="product-desc">Propulsion is via twin outboard electric motors with full redundancy. Navigation is handled by a tightly coupled GS-2 INS/GNSS module with AIS transponder integration. The modular amidship payload bay supports sensor configuration changes without returning to a maintenance facility - antenna arrays, sonar transducers, and optical systems mount via a standardized rail and connector system.</p>
+            <p class="product-desc">Communications use the CM-4A module for encrypted line-of-sight links, supplemented by Iridium satellite for over-the-horizon operations. An autonomous collision avoidance system implements COLREGS-compliant behavior for safe operation in mixed maritime traffic.</p>
+            <div class="missions-head">Mission Profiles</div>
+            <ul class="missions-list">
+              <li class="mission-item">Coastal border patrol and intrusion detection</li>
+              <li class="mission-item">Hydrographic and bathymetric survey</li>
+              <li class="mission-item">Oceanographic data collection (CTD, water sampling)</li>
+              <li class="mission-item">Port and harbor perimeter security</li>
+              <li class="mission-item">Search and rescue coordination platform</li>
+              <li class="mission-item">Persistent environmental monitoring</li>
+            </ul>
+          </div>
+          <div class="specs-panel">
+            <div class="specs-panel-title">Technical Specifications</div>
+            <table class="specs-table">
+              <tr><td class="s-label">Hull Config</td><td class="s-value">Catamaran, HDPE / composite</td></tr>
+              <tr><td class="s-label">Hull Length</td><td class="s-value">5.2 m</td></tr>
+              <tr><td class="s-label">Beam</td><td class="s-value">2.8 m</td></tr>
+              <tr><td class="s-label">Displacement</td><td class="s-value">650 kg (full load)</td></tr>
+              <tr><td class="s-label">Propulsion</td><td class="s-value">Twin electric outboard (2 x 15 kW)</td></tr>
+              <tr><td class="s-label">Max Speed</td><td class="s-value">12 kt (22 km/h)</td></tr>
+              <tr><td class="s-label">Cruise Speed</td><td class="s-value">6 kt</td></tr>
+              <tr><td class="s-label">Endurance</td><td class="s-value">72 h (cruise mode)</td></tr>
+              <tr><td class="s-label">Range</td><td class="s-value">1,200 km (est.)</td></tr>
+              <tr><td class="s-label">Sea State</td><td class="s-value">SS4 operational minimum</td></tr>
+              <tr><td class="s-label">Navigation</td><td class="s-value">GS-2 INS/GNSS + AIS</td></tr>
+              <tr><td class="s-label">Comms</td><td class="s-value">CM-4A + Iridium satellite</td></tr>
+              <tr><td class="s-label">Payload Bay</td><td class="s-value">120 kg, modular rail system</td></tr>
+              <tr><td class="s-label">Collision Avoid</td><td class="s-value">COLREGS-compliant autonomous</td></tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- UUV-2A -->
+      <div class="product-card reveal">
+        <div class="product-card-head">
+          <div class="prod-meta">
+            <span class="prod-type-badge">Autonomous Underwater Vehicle</span>
+            <div class="prod-desig">UUV-2A</div>
+            <div class="prod-fullname">Underwater Survey and Inspection Vehicle</div>
+          </div>
+          <span class="status-badge s-dev">Development</span>
+        </div>
+        <div class="product-card-body">
+          <div>
+            <p class="product-desc">The UUV-2A is a torpedo-form autonomous underwater vehicle designed for subsurface environmental mapping, infrastructure inspection, and bathymetric survey. Its pressure-rated aluminum hull is rated to 200 m depth, covering the continental shelf and near-offshore infrastructure that represents the primary survey target for Moroccan maritime operations.</p>
+            <p class="product-desc">Propulsion is a single rear thruster with two vectorable bow thrusters for three-axis maneuvering capability - enabling station-keeping in moderate currents and precise positioning for inspection tasks that pure torpedo-form AUVs cannot achieve. The modular nose section accepts interchangeable payload configurations without drydocking.</p>
+            <p class="product-desc">The GS-2 inertial guidance module provides navigation during GPS-denied submerged operation. A Doppler velocity log and acoustic positioning transponder supplement inertial navigation for long-duration missions. Surface communication uses acoustic modem while submerged, switching to radio on surfacing.</p>
+            <div class="missions-head">Mission Profiles</div>
+            <ul class="missions-list">
+              <li class="mission-item">Bathymetric seafloor mapping and charting</li>
+              <li class="mission-item">Submarine cable and pipeline inspection</li>
+              <li class="mission-item">Port and harbor approach survey</li>
+              <li class="mission-item">Environmental baseline and monitoring surveys</li>
+              <li class="mission-item">Offshore structure inspection (piers, breakwaters)</li>
+              <li class="mission-item">Mine detection survey (with appropriate sensor payload)</li>
+            </ul>
+          </div>
+          <div class="specs-panel">
+            <div class="specs-panel-title">Technical Specifications</div>
+            <table class="specs-table">
+              <tr><td class="s-label">Form Factor</td><td class="s-value">Torpedo-form AUV</td></tr>
+              <tr><td class="s-label">Hull Material</td><td class="s-value">Pressure-rated aluminum alloy</td></tr>
+              <tr><td class="s-label">Diameter</td><td class="s-value">320 mm</td></tr>
+              <tr><td class="s-label">Length</td><td class="s-value">2.4 m</td></tr>
+              <tr><td class="s-label">Mass (air)</td><td class="s-value">68 kg</td></tr>
+              <tr><td class="s-label">Depth Rating</td><td class="s-value">200 m</td></tr>
+              <tr><td class="s-label">Endurance</td><td class="s-value">12 h (cruise)</td></tr>
+              <tr><td class="s-label">Cruise Speed</td><td class="s-value">4 kt (7.4 km/h)</td></tr>
+              <tr><td class="s-label">Max Speed</td><td class="s-value">6 kt</td></tr>
+              <tr><td class="s-label">Propulsion</td><td class="s-value">1x rear thruster + 2x bow vectored</td></tr>
+              <tr><td class="s-label">Navigation</td><td class="s-value">GS-2 INS + DVL + acoustic positioning</td></tr>
+              <tr><td class="s-label">Comms</td><td class="s-value">Acoustic modem (submerged) / radio (surface)</td></tr>
+              <tr><td class="s-label">Payload Nose</td><td class="s-value">Modular, quick-swap</td></tr>
+              <tr><td class="s-label">Standard Payload</td><td class="s-value">Side-scan sonar + HD camera + CTD sensor</td></tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="reveal" style="margin-top:56px;padding-top:40px;border-top:1px solid var(--slate-200);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px">
+        <div>
+          <div style="font-family:var(--f-mono);font-size:10px;color:var(--slate-400);letter-spacing:.15em;text-transform:uppercase;margin-bottom:8px">Previous Division</div>
+          <a href="ground.html" class="btn-outline">&#8592; Ground Division</a>
+        </div>
+        <div>
+          <div style="font-family:var(--f-mono);font-size:10px;color:var(--slate-400);letter-spacing:.15em;text-transform:uppercase;margin-bottom:8px">Next Division</div>
+          <a href="technology.html" class="btn-blue">Technology Division &#8594;</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-main">
+        <div>
+          <div class="footer-brand-name">KVK MAI</div>
+          <div class="footer-brand-sub">Moroccan Aerospace Industry</div>
+          <p class="footer-brand-desc">Advanced autonomous systems for air, ground, and sea. Engineering-first. Built in Morocco.</p>
+        </div>
+        <div>
+          <div class="footer-col-title">Company</div>
+          <a href="index.html"      class="footer-link">Home</a>
+          <a href="about.html"      class="footer-link">About</a>
+          <a href="investment.html" class="footer-link">Investment</a>
+          <a href="contact.html"    class="footer-link">Contact</a>
+        </div>
+        <div>
+          <div class="footer-col-title">Divisions</div>
+          <a href="air.html"        class="footer-link">Air</a>
+          <a href="ground.html"     class="footer-link">Ground</a>
+          <a href="sea.html"        class="footer-link">Sea</a>
+          <a href="technology.html" class="footer-link">Technology</a>
+        </div>
+        <div>
+          <div class="footer-col-title">Contact</div>
+          <a href="mailto:contact@kvkmai.ma" class="footer-link">contact@kvkmai.ma</a>
+          <a href="mailto:press@kvkmai.ma"   class="footer-link">press@kvkmai.ma</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="footer-copy">&copy; 2026 KVK MAI. All rights reserved.</span>
+        <span class="footer-copy">Casablanca, Morocco</span>
+      </div>
+    </div>
+    <div class="morocco-bar">
+      <div class="m-block-red"></div>
+      <div class="m-block-green"></div>
+      <div class="m-text">Made in the Kingdom of Morocco</div>
+      <div class="m-block-green"></div>
+      <div class="m-block-red"></div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('navBurger').addEventListener('click', () => {
+      document.getElementById('navMenu').classList.toggle('is-open');
+    });
+    const obs = new IntersectionObserver((e) => {
+      e.forEach(en => { if (en.isIntersecting) { en.target.classList.add('is-vis'); obs.unobserve(en.target); } });
+    }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+    document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+  </script>
+</body>
+</html>
